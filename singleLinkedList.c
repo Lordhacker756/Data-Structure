@@ -4,7 +4,9 @@ struct node
 {
     int data;
     struct node *next;
-} *start = NULL, *q, *t;
+};
+
+struct node *start = NULL, *q, *t;
 
 void insertStart();
 void insertEnd();
